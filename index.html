@@ -3,54 +3,56 @@ layout: default
 title: Home
 ---
 
+<div id="about">
+    <h2> <a href="#about">About</a> </h2>
+    <p>
+        Hi! My name is Noah, and I’m a sophomore studying electrical engineering and computer science at MIT. I’m passionate about making things, and I particularly enjoy projects that involve the intersection of hardware and software (such as embedded systems and robotics).
+    </p>
 
-<h1> About </h1>
-<p>
-    Hi! My name is Noah, and I’m a sophomore studying electrical engineering and computer science at MIT. I’m passionate about making things, and in particular I’m interested in projects that lie at the intersection of hardware and software, such as embedded systems and robotics. 
-</p>
-
-<p>
-    In addition, I enjoy sharing this passion with others through organizing HackMIT.
-</p>
-
-<h1> Projects </h1>
-
-{% for project in site.data.projects %}
-<div class="posts">
-  <h2>
-    {{ project.name }}
-  </h2>
-  {% if project.image %}
-    <a href="#"><img src="/assets/img/projects/{{ project.image }}"></a>
-  {% endif %}
-  <p>
-    {{ project.description }}     
-    <span class="project-metadata">
-        {% if project.date %}
-            <span class="metadata-item">
-                <i class="fa fa-calendar" aria-hidden="true"></i> 
-                {{ project.date }}
-            </span>
-        {% endif %}
-        {% if project.blog %}
-            <span class="metadata-item">
-                <i class="fa fa-pencil" aria-hidden="true"></i>
-                <a href="{{ project.blog }}">Blog Post</a>
-            </span>
-        {% endif %}
-        {% if project.website %}
-            <span class="metadata-item">
-                <i class="fa fa-link" aria-hidden="true"></i>
-                <a href="{{ project.website }}">Website</a>
-            </span>
-        {% endif %}
-        {% if project.github %}
-            <span class="metadata-item">
-                <i class="fa fa-github" aria-hidden="true"></i>
-                <a href="{{ project.github }}">Github</a>
-            </span>
-        {% endif %}
-    </span>
-  </p>
+    <p>
+        In addition, I enjoy sharing my passion with others through organizing <a href="https://hackmit.org">HackMIT</a>.
+    </p>
 </div>
-{% endfor %}
+
+<div id="projects">
+    <h2> <a href="#projects">Projects</a> </h2>
+    {% for project in site.data.projects %}
+    <div class="posts">
+      <h3>
+        {{ project.name }}
+      </h3>
+        <span class="project-metadata">
+            {% if project.date %}
+                <span class="metadata-item">
+                    Made in {{ project.date }}
+                </span>
+            {% endif %}
+            {% if project.blog %}
+                <span class="metadata-item">
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                    <a href="{{ project.blog }}">Blog Post</a>
+                </span>
+            {% endif %}
+            {% if project.website %}
+                <span class="metadata-item">
+                    <i class="fa fa-link" aria-hidden="true"></i>
+                    <a href="{{ project.website }}">Website</a>
+                </span>
+            {% endif %}
+            {% if project.github %}
+                <span class="metadata-item">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <a href="{{ project.github }}">Github</a>
+                </span>
+            {% endif %}
+        </span>
+
+      {% if project.image %}
+        <a href="#"><img src="/assets/img/projects/{{ project.image }}"></a>
+      {% endif %}
+      <p>
+        {{ project.description }}     
+      </p>
+    </div>
+    {% endfor %}
+</div>
