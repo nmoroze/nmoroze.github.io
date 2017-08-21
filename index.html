@@ -1,0 +1,40 @@
+---
+layout: default
+title: Home
+---
+
+
+<h1> About </h1>
+<p>
+    Hi! My name is Noah, and I’m a sophomore studying electrical engineering and computer science at MIT. I’m passionate about making things, and in particular I’m interested in projects that lie at the intersection of hardware and software, such as embedded systems and robotics. 
+</p>
+
+<p>
+    In addition, I enjoy sharing this passion with others through organizing HackMIT.
+</p>
+
+<h1> Projects </h1>
+
+{% for project in site.data.projects %}
+<div class="posts">
+  <h2>
+    {{ project.name }}
+  </h2>
+  {% if project.image %}
+    <a href="#"><img src="/assets/img/projects/{{ project.image }}"></a>
+  {% endif %}
+  <p>
+    {{ project.description }}     
+    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ project.date }}
+    {% if project.blog %}
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+        <a href="{{ project.blog }}">Blog Post</a>
+    {% endif %}
+    {% if project.github %}
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <a href="{{ project.github }}">Github</a>
+    {% endif %}
+    </span>
+  </p>
+</div>
+{% endfor %}

@@ -1,0 +1,21 @@
+title:  Noah Moroze 
+tagline: 
+author:
+  name: 'Noah Moroze'
+  twitter: noahmoroze 
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'https-lenpaul-github-io-lagrange'
+
+google-ID: 
+
+menu:
+
+social:
+- {icon: 'github', link: 'https://www.github.com/nmoroze'}
+- {icon: 'twitter', link: 'https://twitter.com/noahmoroze'}
+- {icon: 'envelope', link: 'mailto:me@noahmoroze.com'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer

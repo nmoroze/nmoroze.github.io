@@ -1,0 +1,19 @@
+- name: CM1K Breakout Board 
+  image: cm1k.jpeg
+  github: https://github.com/nmoroze/cm1k 
+  website: 
+  blog: https://medium.com/towards-data-science/experiments-with-the-cm1k-neural-net-chip-32b2d5ca723b
+  date: "Spring 2017"
+  description: In March 2017 I received funding from the MIT Sandbox program to build a product using the CM1K neural network chip. The CM1K is an integrated circuit that implements RBF and KNN classifiers in hardware, which supposedly gives much better performance than implementing these algorithms in software. 
+
+- name: Hextris 
+  image: hextris.png 
+  github: https://github.com/Hextris/hextris 
+  website: 
+  blog: 
+  date: "May 2014"
+  description: 
+    "Hextris is a fast paced puzzle game inspired by Tetris. I first made it at HackExeter 2014 with a group of friends, where it won the Grand Prize. After a lucky Hacker News post, we began to receive tons of attention and the game has now been played by millions of users." 
+
+ 
+
