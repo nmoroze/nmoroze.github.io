@@ -25,15 +25,31 @@ title: Home
   {% endif %}
   <p>
     {{ project.description }}     
-    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ project.date }}
-    {% if project.blog %}
-        <i class="fa fa-pencil" aria-hidden="true"></i>
-        <a href="{{ project.blog }}">Blog Post</a>
-    {% endif %}
-    {% if project.github %}
-        <i class="fa fa-github" aria-hidden="true"></i>
-        <a href="{{ project.github }}">Github</a>
-    {% endif %}
+    <span class="project-metadata">
+        {% if project.date %}
+            <span class="metadata-item">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 
+                {{ project.date }}
+            </span>
+        {% endif %}
+        {% if project.blog %}
+            <span class="metadata-item">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <a href="{{ project.blog }}">Blog Post</a>
+            </span>
+        {% endif %}
+        {% if project.website %}
+            <span class="metadata-item">
+                <i class="fa fa-link" aria-hidden="true"></i>
+                <a href="{{ project.website }}">Website</a>
+            </span>
+        {% endif %}
+        {% if project.github %}
+            <span class="metadata-item">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <a href="{{ project.github }}">Github</a>
+            </span>
+        {% endif %}
     </span>
   </p>
 </div>

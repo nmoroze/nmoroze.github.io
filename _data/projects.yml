@@ -9,7 +9,7 @@
 - name: Hextris 
   image: hextris.png 
   github: https://github.com/Hextris/hextris 
-  website: 
+  website: https://hextris.io
   blog: 
   date: "May 2014"
   description: 

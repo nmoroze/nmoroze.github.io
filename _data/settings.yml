@@ -15,7 +15,9 @@ menu:
 
 social:
 - {icon: 'github', link: 'https://www.github.com/nmoroze'}
+- {icon: 'medium', link: 'https://medium.com/@noahmoroze'}
 - {icon: 'twitter', link: 'https://twitter.com/noahmoroze'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/noah-moroze-715173a0'}
 - {icon: 'envelope', link: 'mailto:me@noahmoroze.com'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
