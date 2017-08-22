@@ -1,3 +1,11 @@
+- name: Cubic 
+  image: cubic.png
+  github: 
+  website: https://devpost.com/software/cubic-9qu4ga 
+  blog: 
+  date: "June 2017"
+  description: Cubic is a Chrome Extension that helps you browse the web by organizing information on any given web page and helping you find related articles. Cubic was developed by the HackMIT team for Battle of the Hacks 2017, where we won first place. 
+
 - name: CM1K Breakout Board 
   image: cm1k.jpeg
   github: https://github.com/nmoroze/cm1k 
@@ -5,6 +13,14 @@
   blog: https://medium.com/towards-data-science/experiments-with-the-cm1k-neural-net-chip-32b2d5ca723b
   date: "Spring 2017"
   description: In March 2017 I received funding from the MIT Sandbox program to build a product using the CM1K neural network chip. The CM1K is an integrated circuit that implements RBF and KNN classifiers in hardware, which supposedly gives much better performance than implementing these algorithms in software. 
+
+- name: Custom 3D Printer 
+  image: 
+  github: https://github.com/nmoroze/printer 
+  website: 
+  blog: 
+  date: "Spring 2016"
+  description: Spring of my senior year, I designed and built a 3D printer inspired by the Prusa i3 design. 
 
 - name: Hextris 
   image: hextris.png 
@@ -15,5 +31,20 @@
   description: 
     "Hextris is a fast paced puzzle game inspired by Tetris. I first made it at HackExeter 2014 with a group of friends, where it won the Grand Prize. After a lucky Hacker News post, we began to receive tons of attention and the game has now been played by millions of users." 
 
- 
+- name: Flare 
+  image:  
+  github: 
+  website: https://devpost.com/software/flare-tm5n9 
+  blog: 
+  date: "September 2014"
+  description: 
+    "Flare is a mobile application that sends information between two phones by using flashes of light. It came in the Top 10 at Pennapps X and received the award for Best iOS App."
 
+- name: Swap 
+  image:  
+  github: https://github.com/nmoroze/swap 
+  website: http://noahmoroze.com/swap/ 
+  blog: 
+  date: "November 2013"
+  description: 
+     "Swap is a new take on the classic tile-based puzzle game, where you change which character you're controlling to reach your goal. Winner of Github Game Off 2013."
