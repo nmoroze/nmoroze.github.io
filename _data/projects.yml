@@ -7,20 +7,36 @@
   description: Cubic is a Chrome Extension that helps you browse the web by organizing information on any given web page and helping you find related articles. Cubic was developed by the HackMIT team for Battle of the Hacks 2017, where we won first place. 
 
 - name: CM1K Breakout Board 
-  image: cm1k.jpeg
+  image: cm1k.png
   github: https://github.com/nmoroze/cm1k 
   website: 
   blog: https://medium.com/towards-data-science/experiments-with-the-cm1k-neural-net-chip-32b2d5ca723b
   date: "Spring 2017"
   description: In March 2017 I received funding from the MIT Sandbox program to build a product using the CM1K neural network chip. The CM1K is an integrated circuit that implements RBF and KNN classifiers in hardware, which supposedly gives much better performance than implementing these algorithms in software. 
 
+- name: Combat Robots 
+  image: battlebot.png 
+  github: 
+  website: 
+  blog: 
+  date: "Fall 2016"
+  description: "My freshman year of MIT I began competing in local combat robotics competitions. These are a fun creative outlet that allow me to step back from the keyboard and do some hands-on building."
+
 - name: Custom 3D Printer 
-  image: 
+  image: printer.png
   github: https://github.com/nmoroze/printer 
   website: 
   blog: 
   date: "Spring 2016"
   description: Spring of my senior year, I designed and built a 3D printer inspired by the Prusa i3 design. 
+
+- name: Rov-R 
+  image: rovr.png
+  github: 
+  website: https://www.youtube.com/watch?v=_5tAIz6HBSQ 
+  blog: 
+  date: "Fall 2015"
+  description: "Some friends and I took Harvard's CS50 online our senior year of high school, and we built a robot named Rov-R as our final project. It featured an iRobot Create as a mobile chassis with a pan/tilt webcam mounted at eye level. A driver could then control this robot remotely via WiFi and see live POV footage via Google Cardboard."
 
 - name: Hextris 
   image: hextris.png 
@@ -31,8 +47,17 @@
   description: 
     "Hextris is a fast paced puzzle game inspired by Tetris. I first made it at HackExeter 2014 with a group of friends, where it won the Grand Prize. After a lucky Hacker News post, we began to receive tons of attention and the game has now been played by millions of users." 
 
+- name: Dodo 
+  image: dodo.png
+  github: https://github.com/nmoroze/dodo 
+  website: https://chrome.google.com/webstore/detail/dodo-download-organizer-f/ecgfdmpkgodbmgpfkcenpmnjfpbiihpo 
+  blog: 
+  date: "March 2014"
+  description: 
+    "Dodo is a Chrome extension that automatically organizes files you download into folders based on various filters."
+
 - name: Flare 
-  image:  
+  image: flare.png
   github: 
   website: https://devpost.com/software/flare-tm5n9 
   blog: 
@@ -41,10 +66,37 @@
     "Flare is a mobile application that sends information between two phones by using flashes of light. It came in the Top 10 at Pennapps X and received the award for Best iOS App."
 
 - name: Swap 
-  image:  
+  image: swap.png
   github: https://github.com/nmoroze/swap 
   website: http://noahmoroze.com/swap/ 
   blog: 
   date: "November 2013"
   description: 
      "Swap is a new take on the classic tile-based puzzle game, where you change which character you're controlling to reach your goal. Winner of Github Game Off 2013."
+
+- name: Onion or Not? 
+  image: onionornot.png 
+  github: https://github.com/nmoroze/onion-or-not 
+  website:
+  blog: 
+  date: "August 2013"
+  description: 
+     "Onion or Not? is a fun game I wrote to teach myself web development. It challenges users to identify whether or not ridiculous headlines are from The Onion or a real news source." 
+
+#- name: Snapchat Keeper 
+#  image:  
+#  github: https://github.com/nmoroze/SnapchatKeeper
+#  website:
+#  blog: 
+#  date: "June 2013"
+#  description: 
+#     "An Android app that allows you to save Snapchats forever without notifying the sender. I developed this as a proof of concept to demonstrate that Snapchat isn't as secure as one may think."
+
+- name: FIRST Tech Challenge 4029 Robots 
+  image:  
+  github: 
+  website: 
+  blog: 
+  date: "2013, 2014, 2015, and 2016"
+  description: 
+     "As a member of FTC robotics team #4029, I worked with my team to create robots that participated in competitions from 2012-2016. Check out the videos of our <a href='https://www.youtube.com/watch?v=Lbc36QBsSmE'>2014</a>, <a href='https://www.youtube.com/watch?v=4-c98yN6vaY'>2015</a>, and <a href='https://www.youtube.com/watch?v=Lt0n4OjAdJY'>2016</a> robots!"
