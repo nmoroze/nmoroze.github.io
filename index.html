@@ -18,9 +18,11 @@ title: Home
     <h2> <a href="#projects">Projects</a> </h2>
     {% for project in site.data.projects %}
     <div class="project">
-      <h3>
-        {{ project.name }}
-      </h3>
+      <div id="{{ project.name }}">
+          <h3>
+            <a href="#{{ project.name }}">{{ project.name }}</a>
+          </h3>
+      </div>
         <span class="project-metadata">
             {% if project.date %}
                 <span class="metadata-item">
@@ -48,7 +50,17 @@ title: Home
         </span>
 
       {% if project.image %}
-        <a href="#"><img src="/assets/img/projects/{{ project.image }}"></a>
+        {% if project.imglink == "github" %}
+            <a href="{{ project.github }}">
+        {% elsif project.imglink == "website" %}
+            <a href="{{ project.website }}">
+        {% elsif project.imglink == "blog" %}
+            <a href="{{ project.blog }}">
+        {% else %}
+            <a href="/assets/img/projects/{{ project.image }}">
+        {% endif %}
+                <img src="/assets/img/projects/{{ project.image }}">
+            </a>
       {% endif %}
       <p>
         {{ project.description }}     

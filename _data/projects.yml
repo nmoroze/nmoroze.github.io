@@ -3,6 +3,7 @@
   github: 
   website: https://devpost.com/software/cubic-9qu4ga 
   blog: 
+  imglink: website
   date: "June 2017"
   description: Cubic is a Chrome Extension that helps you browse the web by organizing information on any given web page and helping you find related articles. Cubic was developed by the HackMIT team for Battle of the Hacks 2017, where we won first place. 
 
@@ -11,6 +12,7 @@
   github: https://github.com/nmoroze/cm1k 
   website: 
   blog: https://medium.com/towards-data-science/experiments-with-the-cm1k-neural-net-chip-32b2d5ca723b
+  imglink: blog
   date: "Spring 2017"
   description: In March 2017 I received funding from the MIT Sandbox program to build a product using the CM1K neural network chip. The CM1K is an integrated circuit that implements RBF and KNN classifiers in hardware, which supposedly gives much better performance than implementing these algorithms in software. 
 
@@ -27,6 +29,7 @@
   github: https://github.com/nmoroze/printer 
   website: 
   blog: 
+  imglink: github
   date: "Spring 2016"
   description: Spring of my senior year, I designed and built a 3D printer inspired by the Prusa i3 design. 
 
@@ -35,6 +38,7 @@
   github: 
   website: https://www.youtube.com/watch?v=_5tAIz6HBSQ 
   blog: 
+  imglink: website
   date: "Fall 2015"
   description: "Some friends and I took Harvard's CS50 online our senior year of high school, and we built a robot named Rov-R as our final project. It featured an iRobot Create as a mobile chassis with a pan/tilt webcam mounted at eye level. A driver could then control this robot remotely via WiFi and see live POV footage via Google Cardboard."
 
@@ -43,6 +47,7 @@
   github: https://github.com/Hextris/hextris 
   website: https://hextris.io
   blog: 
+  imglink: website 
   date: "May 2014"
   description: 
     "Hextris is a fast paced puzzle game inspired by Tetris. I first made it at HackExeter 2014 with a group of friends, where it won the Grand Prize. After a lucky Hacker News post, we began to receive tons of attention and the game has now been played by millions of users." 
@@ -52,6 +57,7 @@
   github: https://github.com/nmoroze/dodo 
   website: https://chrome.google.com/webstore/detail/dodo-download-organizer-f/ecgfdmpkgodbmgpfkcenpmnjfpbiihpo 
   blog: 
+  imglink: website
   date: "March 2014"
   description: 
     "Dodo is a Chrome extension that automatically organizes files you download into folders based on various filters."
@@ -61,6 +67,7 @@
   github: 
   website: https://devpost.com/software/flare-tm5n9 
   blog: 
+  imglink: website
   date: "September 2014"
   description: 
     "Flare is a mobile application that sends information between two phones by using flashes of light. It came in the Top 10 at Pennapps X and received the award for Best iOS App."
@@ -70,6 +77,7 @@
   github: https://github.com/nmoroze/swap 
   website: http://noahmoroze.com/swap/ 
   blog: 
+  imglink: website
   date: "November 2013"
   description: 
      "Swap is a new take on the classic tile-based puzzle game, where you change which character you're controlling to reach your goal. Winner of Github Game Off 2013."
@@ -79,6 +87,7 @@
   github: https://github.com/nmoroze/onion-or-not 
   website:
   blog: 
+  imglink: github
   date: "August 2013"
   description: 
      "Onion or Not? is a fun game I wrote to teach myself web development. It challenges users to identify whether or not ridiculous headlines are from The Onion or a real news source." 
@@ -88,6 +97,7 @@
   github: https://github.com/nmoroze/SnapchatKeeper
   website:
   blog: 
+  imglink: github
   date: "June 2013"
   description: 
      "An Android app that allows you to save Snapchats forever without notifying the sender. I developed this as a proof of concept to demonstrate that Snapchat isn't as secure as one may think."
