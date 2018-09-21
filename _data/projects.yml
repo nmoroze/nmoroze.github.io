@@ -1,3 +1,19 @@
+- name: Cog
+  image: cog.png
+  github: https://github.com/techx/cog
+  blog:
+  imglink: github
+  date: "March 2018"
+  description: Cog is an open source hardware checkout system for hackathons, originally written for use at HackMIT and MakeMIT. The project is still under development by new contributors from HackMIT as well as other hackathons.
+
+- name: MASLAB
+  image: maslab.png
+  github:
+  blog:
+  imglink:
+  date: "January 2018"
+  description: During MIT's 2018 winter term I took MASLAB, a course where you work with a team to build an autonomous robot in one month. The robots were tasked with scoring as many colored balls as possible into the corresponding goal within a certain time period. My team's robot, Mr. Motorcycle, won the end of course competition!
+
 - name: Cubic 
   image: cubic.png
   github: 
