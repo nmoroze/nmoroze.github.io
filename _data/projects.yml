@@ -9,8 +9,9 @@
 - name: MASLAB
   image: maslab.png
   github:
+  video: https://www.youtube.com/watch?v=cI0ddPH5GOs
   blog:
-  imglink:
+  imglink: video
   date: "January 2018"
   description: During MIT's 2018 winter term I took MASLAB, a course where you work with a team to build an autonomous robot in one month. The robots were tasked with scoring as many colored balls as possible into the corresponding goal within a certain time period. My team's robot, Mr. Motorcycle, won the end of course competition!
 
@@ -51,10 +52,10 @@
 
 - name: Rov-R 
   image: rovr.png
-  github: 
-  website: https://www.youtube.com/watch?v=_5tAIz6HBSQ 
-  blog: 
-  imglink: website
+  github:
+  video: https://www.youtube.com/watch?v=_5tAIz6HBSQ
+  blog:
+  imglink: video
   date: "Fall 2015"
   description: "Some friends and I took Harvard's CS50 online our senior year of high school, and we built a robot named Rov-R as our final project. It featured an iRobot Create as a mobile chassis with a pan/tilt webcam mounted at eye level. A driver could control this robot remotely via WiFi and see live PoV footage via Google Cardboard."
 

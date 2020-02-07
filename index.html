@@ -56,6 +56,12 @@ title: Home
                     <a href="{{ project.github }}">GitHub</a>
                 </span>
             {% endif %}
+            {% if project.video %}
+                <span class="metadata-item">
+                    <i class="fa fa-video-camera" aria-hidden="true"></i>
+                    <a href="{{ project.video }}">Video</a>
+                </span>
+            {% endif %}
         </span>
 
       {% if project.image %}
@@ -65,6 +71,8 @@ title: Home
             <a href="{{ project.website }}">
         {% elsif project.imglink == "blog" %}
             <a href="{{ project.blog }}">
+        {% elsif project.imglink == "video" %}
+            <a href="{{ project.video }}">
         {% else %}
             <a href="/assets/img/projects/{{ project.image }}">
         {% endif %}
