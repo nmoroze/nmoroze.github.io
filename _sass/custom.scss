@@ -35,17 +35,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
 }
 
-#about {
-  margin-bottom: 4rem;
+h2 {
+  margin-top: 4rem;
 }
 
-#projects {
+.project {
   h3 {
     margin: 0;
   }
-  .project {
-    margin-bottom: 2rem;
-    padding: 0px;
-    list-style: none;
-  }
+  margin-bottom: 2rem;
+  padding: 0px;
+  list-style: none;
 }
