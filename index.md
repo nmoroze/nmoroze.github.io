@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# [About](#about)
+## [About](#about)
 Hi! My name is Noah, and I'm an MEng student studying electrical engineering and
 computer science at MIT. I'm passionate about making things, and I particularly
 enjoy projects that involve the intersection of hardware and software (such as
