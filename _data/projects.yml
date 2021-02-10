@@ -1,3 +1,11 @@
+- name: Lemoncore
+  image: lemoncore.jpg
+  github: https://github.com/nmoroze/lemoncore
+  imglink: github
+  date: "Summer 2020"
+  featured: true
+  description: Lemoncore is a custom RISC-V softcore that implements the base RV32I instruction set, along with M-mode from the privileged spec. I worked on this project to get a bit more hands-on with RISC-V and the FOSS tool flows for Lattice FPGAs.
+
 - name: Persistence-of-Vision Display
   image: pov.png
   github:
@@ -5,6 +13,7 @@
   video: http://web.mit.edu/6.111/volume2/www/f2018/projects/persist_s.mp4
   imglink: video
   date: "December 2018"
+  featured: true
   description: For our <a href="http://web.mit.edu/6.111/">6.111 Digital Systems</a> final project, a friend and I made a spinning persistence-of-vision display powered by an FPGA.
 
 - name: Cog
@@ -13,6 +22,7 @@
   blog:
   imglink: github
   date: "March 2018"
+  featured: true
   description: Cog is an open source hardware checkout system for hackathons, originally written for use at HackMIT and MakeMIT. The project is still under development by new contributors from HackMIT as well as other hackathons.
 
 - name: MASLAB
@@ -22,6 +32,7 @@
   blog:
   imglink: video
   date: "January 2018"
+  featured: true
   description: During MIT's 2018 winter term I took MASLAB, a course where you work with a team to build an autonomous robot in one month. The robots were tasked with scoring as many colored balls as possible into the corresponding goal within a certain time period. My team's robot, Mr. Motorcycle, won the end of course competition!
 
 - name: Cubic
@@ -40,6 +51,7 @@
   blog: https://medium.com/towards-data-science/experiments-with-the-cm1k-neural-net-chip-32b2d5ca723b
   imglink: blog
   date: "Spring 2017"
+  featured: true
   description: In March 2017 I received funding from the MIT Sandbox program to build a breakout board for the CM1K neural network chip. The CM1K is an integrated circuit that implements RBF and KNN classifiers in hardware, which supposedly gives much better performance than implementing these algorithms in software.
 
 - name: Combat Robots

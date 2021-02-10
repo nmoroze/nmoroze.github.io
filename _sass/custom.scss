@@ -47,3 +47,38 @@ h2 {
   padding: 0px;
   list-style: none;
 }
+
+.caption {
+    color: gray;
+    font-size: 80%;
+    text-align: center;
+}
+
+/* Make social icons colorful on hover everywhere */
+.fa-envelope:hover {
+    color: #f39c12;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-instagram:hover {
+    color: #375989;
+}
+
+.fa-github:hover {
+    color: #343434;
+}
+
+.fa-linkedin:hover {
+    color: #0073a4;
+}
+
+.fa-medium:hover {
+    color: #00AB6C;
+}
+
+.fa-facebook:hover {
+    color: #3d5b99;
+}
