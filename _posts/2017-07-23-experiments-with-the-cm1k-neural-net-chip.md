@@ -5,6 +5,7 @@ date:	2017-07-23
 imgdir: /assets/img/blog/2017-07-23-experiments-with-the-cm1k-neural-net-chip
 image: /projects/cm1k.png
 excerpt:  "<p>In March 2017 I received funding from the MIT Sandbox program to build a product using the CM1K neural network chip. The CM1K is an integrated circuit that implements RBF and KNN classifiers in hardware, which supposedly gives much better performance than implementing these algorithms in software.</p>"
+draft: false
 ---
 
 *This is a reposting of a post originally published on [Medium](https://towardsdatascience.com/experiments-with-the-cm1k-neural-net-chip-32b2d5ca723b).*
