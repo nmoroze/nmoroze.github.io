@@ -14,7 +14,8 @@ layout: default
     <!--One nasty line ensures there's no space between the day and the comma-->
     {% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
     {{ page.date | date: "%Y" }}
-    - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+    - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+    {% if page.draft %} - Draft (unlisted) {% endif %}</span>
 </span>
 
 {% if page.image.feature %}
