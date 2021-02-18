@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 .jekyll-cache
 .DS_Store
+
+# from building basalt figures
+__pycache__
