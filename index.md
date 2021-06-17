@@ -19,6 +19,11 @@ intersection of hardware and software. Lately, I've taken a particular interest
 in open-source digital hardware, tools for simplifying digital hardware design,
 and using dedicated hardware for achieving new goals in performance or security.
 
+If you're interested in the sort of stuff I'm working on, please consider
+following me on [Twitter](https://twitter.com/NoahMoroze), where I post
+occasional project updates, or [Github](https://github.com/nmoroze), where you
+can find my open-source work!
+
 <!-- Previously, I've worked on LIDAR firmware at [Waymo](https://waymo.com/),
 and before that I worked on systems software at
 [NVIDIA](https://www.nvidia.com/en-us/). -->
