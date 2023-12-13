@@ -3,8 +3,21 @@ layout: default
 title: Home
 ---
 
-Hi! My name is Noah, and I'm currently a software engineer at [Zero
-ASIC](https://zeroasic.com).
+Hi! My name is Noah, and I'm currently a software engineer at
+[zeroRISC](https://zerorisc.com).
+
+In my spare time I'm working on [tclint](https://github.com/nmoroze/tclint), an
+open-source linter for the Tcl scripting language. tclint is particularly aimed
+at facilitating EDA flow development and maintenance.
+
+Previously, I was a software engineer at [Zero ASIC](https://zeroasic.com).
+There I worked on an open-source EDA build system called
+[SiliconCompiler](https://github.com/siliconcompiler/siliconcompiler), and a
+web-based chiplet design & emulation
+[platform](https://www.zeroasic.com/emulation). I also worked on an open-source
+hardware communication framework called
+[Switchboard](https://github.com/zeroasiccorp/switchboard), which powers this
+emulation platform.
 
 Prior to Zero ASIC I was a student at MIT, where I earned my BS and MEng in
 electrical engineering and computer science. My [masters
@@ -14,10 +27,10 @@ to prove a security property for an open-source processor. I worked on this
 thesis with the Parallel and Distributed Operating Systems Group
 [(PDOS)](https://pdos.csail.mit.edu/) in MIT CSAIL.
 
-I'm passionate about making things, and I enjoy projects that involve the
+<!-- I'm passionate about making things, and I enjoy projects that involve the
 intersection of hardware and software. Lately, I've taken a particular interest
 in open-source digital hardware, tools for simplifying digital hardware design,
-and using dedicated hardware for achieving new goals in performance or security.
+and using dedicated hardware for achieving new goals in performance or security. -->
 
 If you're interested in the sort of stuff I'm working on, please consider
 following me on [Twitter](https://twitter.com/NoahMoroze), where I post
